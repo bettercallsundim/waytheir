@@ -74,11 +74,12 @@ p{
    margin: 0;
 }
 .fare,.celc{
-   background-color: crimson;
+   background-color: rgb(2, 109, 162);
    outline: none;
    border: none;
    color: white;
    border-radius: 5px;
+   padding: .1rem 1rem;
 }
 .buttons{
    display: none;
