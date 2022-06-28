@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+body{
+font-family: 'Rubik', sans-serif;
+}
+
+.main{
+   width: 100%;
+   height: 100vh;
+   background-color: rgb(234, 234, 234);
+}
+.container{
+   width: 100%;
+   height: 100%;
+}
+
+.box{
+   width: 350px;
+   height: 90%;
+   border-radius: 10px;
+   background-color: rgb(194, 194, 194);
+   box-shadow: 3px 3px 10px rgb(136, 121, 121),
+   -5px -5px 10px rgb(199, 199, 199)
+   ;
+   padding: .5rem;
+}
+
+.box h3{
+   color: crimson;
+   font-weight: bold;
+   text-shadow: 3px 3px 8px rgb(234, 232, 232),
+   -3px -3px 8px rgb(234, 232, 232);
+
+}
+
+
+.wgrid{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   gap: .5rem;
+}
+.gridChild{
+   background-color: purple;
+   color: white;
+   display: grid;
+   height: 100%;
+   font-size: .8rem;
+   place-items: center  start;
+   border-radius: 10px;
+   padding: .5rem;
+   font-weight: 600;
+}
+.gridChild:nth-of-type(2){
+   background-color: rgb(46, 251, 77);
+   color: black;
+}
+.gridChild:nth-of-type(3){
+   background-color: rgb(46, 159, 251);
+   color: rgb(0, 0, 0);
+}
+.gridChild:nth-of-type(3) img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 2rem;
+  object-fit: cover;
+}
+.gridChild:nth-of-type(4){
+   background-color: rgb(251, 46, 84);
+   color: white;
+}
+
+p{
+   margin: 0;
+}
+.fare,.celc{
+   background-color: crimson;
+   outline: none;
+   border: none;
+   color: white;
+   border-radius: 5px;
+}
+.buttons{
+   display: none;
+}
